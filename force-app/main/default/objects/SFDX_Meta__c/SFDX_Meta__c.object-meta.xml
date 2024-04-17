@@ -161,6 +161,7 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>SFDX Meta</pluralLabel>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
     <searchLayouts></searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
