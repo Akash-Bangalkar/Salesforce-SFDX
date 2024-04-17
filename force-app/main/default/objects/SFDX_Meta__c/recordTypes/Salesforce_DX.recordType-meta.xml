@@ -3,4 +3,15 @@
     <fullName>Salesforce_DX</fullName>
     <active>true</active>
     <label>Salesforce DX</label>
+    <picklistValues>
+        <picklist>Source_Format__c</picklist>
+        <values>
+            <fullName>SFDC</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>SFDX</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
 </RecordType>
