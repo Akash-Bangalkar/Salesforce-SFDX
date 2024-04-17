@@ -21,14 +21,6 @@
         <object>SFDX_Meta__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
-    <recordTypeVisibilities>
-        <recordType>SFDX_Meta__c.Metadata_API</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <recordType>SFDX_Meta__c.Salesforce_DX</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
     <tabSettings>
         <tab>SFDX_Meta__c</tab>
         <visibility>Visible</visibility>
