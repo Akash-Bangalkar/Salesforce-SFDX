@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
     <sharingOwnerRules>
-        <fullName>SFDX_Rule_1</fullName>
-        <accessLevel>Edit</accessLevel>
-        <label>SFDX Rule 1</label>
+        <fullName>SFDX_Rule_2</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>SFDX Rule 2</label>
         <sharedTo>
             <group>FD_Test_Group</group>
         </sharedTo>
