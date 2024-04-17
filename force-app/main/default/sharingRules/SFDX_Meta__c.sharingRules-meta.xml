@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>SFDX_Rule_3</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>SFDX Rule 3</label>
+        <sharedTo>
+            <group>FD_Test_Group</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Name</field>
+            <operation>notContain</operation>
+            <value>SFDX</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
     <sharingOwnerRules>
         <fullName>SFDX_Rule_2</fullName>
         <accessLevel>Read</accessLevel>
