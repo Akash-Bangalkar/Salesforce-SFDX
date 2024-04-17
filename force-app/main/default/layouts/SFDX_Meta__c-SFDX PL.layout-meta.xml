@@ -39,11 +39,21 @@
                 <field>OwnerId</field>
             </layoutItems>
         </layoutColumns>
+        <layoutColumns/>
+        <style>TwoColumnsLeftToRight</style>
+    </layoutSections>
+    <layoutSections>
+        <customLabel>true</customLabel>
+        <detailHeading>true</detailHeading>
+        <editHeading>true</editHeading>
+        <label>System Info</label>
         <layoutColumns>
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>CreatedById</field>
             </layoutItems>
+        </layoutColumns>
+        <layoutColumns>
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>LastModifiedById</field>
