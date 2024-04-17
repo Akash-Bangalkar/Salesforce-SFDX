@@ -13,12 +13,12 @@
             <sorted>false</sorted>
             <value>
                 <fullName>Approved</fullName>
-                <default>true</default>
+                <default>false</default>
                 <label>Approved</label>
             </value>
             <value>
                 <fullName>Rejected</fullName>
-                <default>false</default>
+                <default>true</default>
                 <label>Rejected</label>
             </value>
         </valueSetDefinition>
