@@ -162,7 +162,9 @@
     </nameField>
     <pluralLabel>SFDX Meta</pluralLabel>
     <recordTypeTrackHistory>false</recordTypeTrackHistory>
-    <searchLayouts></searchLayouts>
+    <searchLayouts>
+        <searchResultsAdditionalFields>Source_Format__c</searchResultsAdditionalFields>
+    </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>
