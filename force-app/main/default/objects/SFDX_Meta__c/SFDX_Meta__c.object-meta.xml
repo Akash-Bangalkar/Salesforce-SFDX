@@ -161,6 +161,12 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>SFDX Meta</pluralLabel>
+    <profileSearchLayouts>
+        <fields>NAME</fields>
+        <fields>Source_Format__c</fields>
+        <fields>Components__c</fields>
+        <profileName>System Administrator</profileName>
+    </profileSearchLayouts>
     <recordTypeTrackHistory>false</recordTypeTrackHistory>
     <searchLayouts>
         <searchResultsAdditionalFields>Source_Format__c</searchResultsAdditionalFields>
