@@ -30,6 +30,10 @@
             <name>Second_Field</name>
             <type>FieldUpdate</type>
         </actions>
+        <actions>
+            <name>SFDX_Task</name>
+            <type>Task</type>
+        </actions>
         <active>false</active>
         <criteriaItems>
             <field>Account.CleanStatus</field>
@@ -38,4 +42,16 @@
         </criteriaItems>
         <triggerType>onCreateOrTriggeringUpdate</triggerType>
     </rules>
+    <tasks>
+        <fullName>SFDX_Task</fullName>
+        <assignedTo>flexdeploy8@sfdc.com.sandbox</assignedTo>
+        <assignedToType>user</assignedToType>
+        <dueDateOffset>10</dueDateOffset>
+        <notifyAssignee>false</notifyAssignee>
+        <offsetFromField>Account.CreatedDate</offsetFromField>
+        <priority>Normal</priority>
+        <protected>false</protected>
+        <status>Not Started</status>
+        <subject>SFDX Task</subject>
+    </tasks>
 </Workflow>
