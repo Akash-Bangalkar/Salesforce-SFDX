@@ -32,6 +32,11 @@
                 <default>false</default>
                 <label>object.mdapi</label>
             </value>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <label>None</label>
+            </value>
         </valueSetDefinition>
         <valueSettings>
             <controllingFieldValue>SFDC</controllingFieldValue>

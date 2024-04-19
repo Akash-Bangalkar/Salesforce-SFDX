@@ -4,6 +4,40 @@
     <active>true</active>
     <label>Metadata API</label>
     <picklistValues>
+        <picklist>Client__c</picklist>
+        <values>
+            <fullName>India</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>USA</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Components__c</picklist>
+        <values>
+            <fullName>None</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>meta%2Emdapi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>meta%2Exml</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>object%2Emdapi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>object%2Exml</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>Source_Format__c</picklist>
         <values>
             <fullName>SFDC</fullName>
