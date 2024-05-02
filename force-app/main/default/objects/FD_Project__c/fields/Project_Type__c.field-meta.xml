@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Task_Status__c</fullName>
+    <fullName>Project_Type__c</fullName>
     <externalId>false</externalId>
-    <label>Task Status</label>
+    <label>Project Type</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
@@ -12,14 +12,14 @@
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
-                <fullName>Approved</fullName>
+                <fullName>Agile</fullName>
                 <default>true</default>
-                <label>Approved</label>
+                <label>Agile</label>
             </value>
             <value>
-                <fullName>Rejected</fullName>
+                <fullName>Waterfall</fullName>
                 <default>false</default>
-                <label>Rejected</label>
+                <label>Waterfall</label>
             </value>
         </valueSetDefinition>
     </valueSet>
