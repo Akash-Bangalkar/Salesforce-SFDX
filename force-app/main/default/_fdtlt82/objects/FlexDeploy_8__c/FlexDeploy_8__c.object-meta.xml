@@ -161,7 +161,21 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>FlexDeploy 8</pluralLabel>
-    <searchLayouts></searchLayouts>
+    <profileSearchLayouts>
+        <fields>NAME</fields>
+        <fields>Task_Status__c</fields>
+        <profileName>System Administrator</profileName>
+    </profileSearchLayouts>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <searchLayouts>
+        <excludedStandardButtons>OpenListInQuip</excludedStandardButtons>
+        <excludedStandardButtons>NewFromDocument</excludedStandardButtons>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <excludedStandardButtons>PrintableListView</excludedStandardButtons>
+        <excludedStandardButtons>Import</excludedStandardButtons>
+        <excludedStandardButtons>MassChangeOwner</excludedStandardButtons>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+    </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>
