@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sf_devops__Approved_Without_Review</fullName>
+    <active>true</active>
+    <description>Enforce that if Approved is set then this item has a review.</description>
+    <errorConditionFormula>AND(
+OR(
+ISNEW(),
+ISCHANGED(sf_devops__Development_Approved__c),
+ISCHANGED(sf_devops__Review_Remote_Reference__c),
+ISCHANGED(sf_devops__Promoted__c)
+),
+sf_devops__Development_Approved__c,
+ISBLANK( sf_devops__Review_Remote_Reference__c  ),
+NOT( sf_devops__Promoted__c)
+
+)</errorConditionFormula>
+    <errorMessage>A Work Item cannot be approved without a review.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FD_Project_CL</fullName>
+    <fields>Name</fields>
+    <fields>FD_Active__c</fields>
+    <fields>FD_Project_Blueprint__c</fields>
+    <label>Project CL</label>
+</CompactLayout>

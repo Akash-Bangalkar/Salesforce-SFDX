@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>agf__Include_Lightning_Platform_Freeze__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Check this box if Lightning Platform Freeze records should be included for releases. This is in addition to Feature Freeze and Release Freeze records.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Check this box if Lightning Platform Freeze records should be included for releases. This is in addition to Feature Freeze and Release Freeze records.</inlineHelpText>
+    <label>Include Lightning Platform Freeze</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

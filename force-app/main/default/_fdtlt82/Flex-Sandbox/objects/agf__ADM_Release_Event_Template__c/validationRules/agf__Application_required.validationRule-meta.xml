@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>agf__Application_required</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISBLANK(agf__Application__c)</errorConditionFormula>
+    <errorDisplayField>agf__Application__c</errorDisplayField>
+    <errorMessage>Application must be specified.</errorMessage>
+</ValidationRule>

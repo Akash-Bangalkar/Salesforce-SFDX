@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>agf__Number_of_SLA_Violations__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Number of T&amp;P SLA Violations</label>
+    <summaryFilterItems>
+        <field>agf__SLA_Violation__c.agf__Type__c</field>
+        <operation>notEqual</operation>
+        <value>Support</value>
+    </summaryFilterItems>
+    <summaryForeignKey>agf__SLA_Violation__c.agf__Work__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

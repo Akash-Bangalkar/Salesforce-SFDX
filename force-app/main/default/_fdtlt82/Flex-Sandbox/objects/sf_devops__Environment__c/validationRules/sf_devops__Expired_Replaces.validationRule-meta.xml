@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sf_devops__Expired_Replaces</fullName>
+    <active>true</active>
+    <description>A replacement Environment must be expired.</description>
+    <errorConditionFormula>AND(OR(ISNEW(),ISCHANGED(sf_devops__Replaces__c)), NOT(sf_devops__Replaces__r.sf_devops__Expired__c))</errorConditionFormula>
+    <errorMessage>A replacement Environment must be expired.</errorMessage>
+</ValidationRule>

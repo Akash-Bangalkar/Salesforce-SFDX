@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sf_devops__Environment_Requires_Tracking</fullName>
+    <active>true</active>
+    <description>Enforce we only reference environments with source tracking.</description>
+    <errorConditionFormula>AND(
+OR(
+ISNEW(),
+ISCHANGED(sf_devops__Environment__c)
+),
+NOT(ISBLANK( sf_devops__Environment__c  )),
+NOT(sf_devops__Environment__r.sf_devops__Can_Track_Changes__c)
+
+)</errorConditionFormula>
+    <errorMessage>Cannot reference environment that does not support change tracking.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sf_devops__Test_Environment__c</fullName>
+    <defaultValue>true</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If true, this environment is on test instance, and auth should be performed at test.salesforce.com (not login.salesforce.com)</description>
+    <externalId>false</externalId>
+    <label>Test Environment</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

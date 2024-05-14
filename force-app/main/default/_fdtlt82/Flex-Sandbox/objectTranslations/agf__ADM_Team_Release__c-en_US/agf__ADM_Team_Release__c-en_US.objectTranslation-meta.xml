@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>agf__Build_cannot_be_empty</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>agf__Scrum_Team_Is_Active</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>agf__Team_cannot_be_empty</name>
+    </validationRules>
+    <webLinks>
+        <label></label>
+        <name>agf__Recalc_Burnup_Burndown</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>custom_Field__c</fullName>
+    <businessStatus>Active</businessStatus>
+    <description>This is a testing custom field.</description>
+    <externalId>false</externalId>
+    <label>custom_Field</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

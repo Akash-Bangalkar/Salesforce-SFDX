@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sf_devops__Project_Reference</fullName>
+    <active>true</active>
+    <description>Enforce Our Change Bundle and Environment are from the same project.</description>
+    <errorConditionFormula>AND(
+ISNEW(),
+sf_devops__Change_Bundle__r.sf_devops__Project__c &lt;&gt; sf_devops__Environment__r.sf_devops__Project__c
+
+)</errorConditionFormula>
+    <errorMessage>A Change Bundle Install must reference an Environment and Change Bundle from the same Project.</errorMessage>
+</ValidationRule>

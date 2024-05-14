@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sf_devops__Target_Pipeline_Stage__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The Pipeline Stage record that this VCS Event applies to.</description>
+    <externalId>false</externalId>
+    <label>Target Pipeline Stage</label>
+    <referenceTo>sf_devops__Pipeline_Stage__c</referenceTo>
+    <relationshipLabel>VCS Events</relationshipLabel>
+    <relationshipName>VCS_Events</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

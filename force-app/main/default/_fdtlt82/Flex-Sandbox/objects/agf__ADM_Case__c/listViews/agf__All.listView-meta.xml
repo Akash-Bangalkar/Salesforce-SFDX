@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>agf__All</fullName>
+    <columns>agf__Case_Number__c</columns>
+    <columns>agf__Work__c</columns>
+    <columns>NAME</columns>
+    <columns>agf__External_ID__c</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>agf__Account_Id__c</columns>
+    <columns>agf__Parent_Account_Id__c</columns>
+    <columns>agf__Case_Owner_ID__c</columns>
+    <columns>agf__Case_Owner_Link__c</columns>
+    <columns>agf__Cases_Link__c</columns>
+    <columns>agf__Case_Subject_Link__c</columns>
+    <columns>agf__Account_Link__c</columns>
+    <columns>agf__Parent_Account_Link__c</columns>
+    <columns>agf__Case_Created_Date__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

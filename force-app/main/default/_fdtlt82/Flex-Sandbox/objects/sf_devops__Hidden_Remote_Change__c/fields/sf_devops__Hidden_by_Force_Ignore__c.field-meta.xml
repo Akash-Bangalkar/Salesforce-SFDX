@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sf_devops__Hidden_by_Force_Ignore__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Has this Hidden Remote Change been hidden by force ignore?</description>
+    <externalId>false</externalId>
+    <label>Hidden by Force Ignore</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

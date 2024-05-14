@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sf_devops__Work_Item_Project</fullName>
+    <active>true</active>
+    <description>Enforce Work_Item__r is from the same project as the Object_Activity.</description>
+    <errorConditionFormula>AND(
+OR(
+ISNEW(),
+ISCHANGED(sf_devops__Work_Item__c)
+),
+NOT(ISBLANK(sf_devops__Work_Item__c)),
+sf_devops__Project__c &lt;&gt; sf_devops__Work_Item__r.sf_devops__Project__c
+
+)</errorConditionFormula>
+    <errorMessage>The referenced Work_Item__c must be from the same project as the Object_Activity__c.</errorMessage>
+</ValidationRule>

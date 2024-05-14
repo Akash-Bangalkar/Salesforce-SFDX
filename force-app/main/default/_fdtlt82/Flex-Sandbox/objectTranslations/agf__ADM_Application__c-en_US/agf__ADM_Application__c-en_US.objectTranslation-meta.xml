@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>agf__Release_Planning_Must_Be_Enabled_Case</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>agf__Space_Separated_Instances</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>agf__Specify_Application_Type</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>agf__Specify_Category</name>
+    </validationRules>
+</CustomObjectTranslation>

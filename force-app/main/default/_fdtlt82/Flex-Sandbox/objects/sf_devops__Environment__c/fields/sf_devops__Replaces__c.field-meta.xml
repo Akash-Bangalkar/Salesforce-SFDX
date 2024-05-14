@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sf_devops__Replaces__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>A reference to the Environment that this environment replaces in the DevOps center.</description>
+    <externalId>false</externalId>
+    <label>Replaces</label>
+    <referenceTo>sf_devops__Environment__c</referenceTo>
+    <relationshipLabel>Replaces</relationshipLabel>
+    <relationshipName>Replaces_Bys</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

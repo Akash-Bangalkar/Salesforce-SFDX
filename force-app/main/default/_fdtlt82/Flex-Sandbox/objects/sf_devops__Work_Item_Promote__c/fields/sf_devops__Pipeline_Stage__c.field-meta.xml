@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sf_devops__Pipeline_Stage__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The stage of this promotion</description>
+    <externalId>false</externalId>
+    <label>Pipeline Stage</label>
+    <referenceTo>sf_devops__Pipeline_Stage__c</referenceTo>
+    <relationshipLabel>Work Item Promotes</relationshipLabel>
+    <relationshipName>Work_Item_Promotes</relationshipName>
+    <relationshipOrder>1</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

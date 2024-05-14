@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>agf__Completion_Items__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>IF(
+    OR(
+        ISBLANK(agf__Completed_Items__c),
+        ISBLANK(agf__Committed_Items__c)
+    ),
+    0,
+    agf__Completed_Items__c/agf__Committed_Items__c
+)</formula>
+    <label>Completion Items</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

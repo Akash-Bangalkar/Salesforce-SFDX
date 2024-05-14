@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sf_devops__Destination_Environment__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The destination environment of a back sync.</description>
+    <externalId>false</externalId>
+    <label>Destination Environment</label>
+    <referenceTo>sf_devops__Environment__c</referenceTo>
+    <relationshipLabel>Destination Back Syncs</relationshipLabel>
+    <relationshipName>Destination_Back_Syncs</relationshipName>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

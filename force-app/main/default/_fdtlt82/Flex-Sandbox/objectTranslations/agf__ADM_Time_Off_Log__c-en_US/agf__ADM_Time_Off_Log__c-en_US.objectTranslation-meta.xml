@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <recordTypes>
+        <description></description>
+        <label></label>
+        <name>agf__CompanyHoliday</name>
+    </recordTypes>
+    <recordTypes>
+        <description></description>
+        <label></label>
+        <name>agf__OutofOffice</name>
+    </recordTypes>
+    <recordTypes>
+        <description></description>
+        <label></label>
+        <name>agf__PTOn</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>agf__Start_Date_before_End_Date</name>
+    </validationRules>
+</CustomObjectTranslation>

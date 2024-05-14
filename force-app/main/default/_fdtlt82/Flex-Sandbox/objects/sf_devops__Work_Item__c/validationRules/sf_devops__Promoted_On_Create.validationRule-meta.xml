@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sf_devops__Promoted_On_Create</fullName>
+    <active>true</active>
+    <description>Enforce we cannot create a work item with Promoted__c set.</description>
+    <errorConditionFormula>AND(
+ISNEW(),
+sf_devops__Promoted__c
+
+)</errorConditionFormula>
+    <errorMessage>You cannot create a Work_Item with the Promoted flag set.</errorMessage>
+</ValidationRule>

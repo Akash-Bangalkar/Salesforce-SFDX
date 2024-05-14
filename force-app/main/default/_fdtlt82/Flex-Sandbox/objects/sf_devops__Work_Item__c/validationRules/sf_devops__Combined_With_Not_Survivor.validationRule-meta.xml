@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sf_devops__Combined_With_Not_Survivor</fullName>
+    <active>true</active>
+    <description>Verifies that if Combined_With is set it references a work item that completed the Combine operation</description>
+    <errorConditionFormula>AND(
+    ISCHANGED(sf_devops__Combined_With__c),
+    OR(
+      ISBLANK(sf_devops__Combined_With__r.sf_devops__Combine_Status__c), 
+      NOT(ISPICKVAL(sf_devops__Combined_With__r.sf_devops__Combine_Status__r.sf_devops__Status__c, &quot;Completed&quot;))
+    )
+ )</errorConditionFormula>
+    <errorMessage>A Work Item cannot have Combined_With set to a work item that did not perform the Combine operation.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>agf__End_Time_cannot_be_before_Start_Time</fullName>
+    <active>true</active>
+    <errorConditionFormula>agf__Scheduled_Start__c &gt; agf__Scheduled_End__c</errorConditionFormula>
+    <errorDisplayField>agf__Scheduled_End__c</errorDisplayField>
+    <errorMessage>Event End Time cannot be before Start Time.</errorMessage>
+</ValidationRule>

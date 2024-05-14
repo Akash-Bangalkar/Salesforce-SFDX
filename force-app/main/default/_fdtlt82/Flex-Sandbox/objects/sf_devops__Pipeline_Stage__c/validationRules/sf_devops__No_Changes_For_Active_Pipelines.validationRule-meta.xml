@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sf_devops__No_Changes_For_Active_Pipelines</fullName>
+    <active>true</active>
+    <description>Do not allow changes to a stage on an active pipeline</description>
+    <errorConditionFormula>AND(
+ OR (
+    AND(
+      ISCHANGED( sf_devops__Branch__c  ), 
+      NOT(ISBLANK(PRIORVALUE(sf_devops__Branch__c)))
+    ) ,
+    ISCHANGED(  sf_devops__Next_Stage__c  ) ,
+    ISCHANGED(   sf_devops__Versioned__c   )
+  ),
+ sf_devops__Pipeline__r.sf_devops__Activated__c )</errorConditionFormula>
+    <errorMessage>You cannot modify a Pipeline_Stage on an activated Pipeline.</errorMessage>
+</ValidationRule>

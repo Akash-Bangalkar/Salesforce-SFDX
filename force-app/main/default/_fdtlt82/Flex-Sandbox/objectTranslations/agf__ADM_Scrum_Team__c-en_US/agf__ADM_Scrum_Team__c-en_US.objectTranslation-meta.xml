@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <recordTypes>
+        <description></description>
+        <label></label>
+        <name>agf__Program</name>
+    </recordTypes>
+    <recordTypes>
+        <description></description>
+        <label></label>
+        <name>agf__Scrum_Team</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>agf__Cloud_is_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>agf__No_Ampersand_in_names</name>
+    </validationRules>
+    <webLinks>
+        <label></label>
+        <name>agf__Kanban_Sfx_Button</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>agf__Prioritizer</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>agf__Unified_Wall</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>agf__Work_Manager_SFX_Button</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FD_Definition_CL</fullName>
+    <fields>Name</fields>
+    <fields>FD_WF_Name__c</fields>
+    <fields>FD_Activate__c</fields>
+    <fields>FD_Updated_On__c</fields>
+    <fields>FD_Updated_By__c</fields>
+    <label>Definition CL</label>
+</CompactLayout>

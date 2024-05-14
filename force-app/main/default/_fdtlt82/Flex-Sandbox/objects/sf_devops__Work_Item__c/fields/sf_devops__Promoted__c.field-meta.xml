@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sf_devops__Promoted__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Has this Work Item been promoted into a Pipeline Stage?</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Managed by the DevOps Center, when this Work Item record moves into a promoted state, this value will be updated to true automatically.</inlineHelpText>
+    <label>Promoted</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

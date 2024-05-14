@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>agf__Project_Management_Notes_Date__c</fullName>
+    <defaultValue>TODAY()</defaultValue>
+    <deprecated>false</deprecated>
+    <description>TPM notes as of this date</description>
+    <externalId>false</externalId>
+    <inlineHelpText>TPM notes as of this date</inlineHelpText>
+    <label>Project Management Notes Date</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

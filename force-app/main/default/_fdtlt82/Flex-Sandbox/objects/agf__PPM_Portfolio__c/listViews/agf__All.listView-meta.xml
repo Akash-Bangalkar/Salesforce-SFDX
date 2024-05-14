@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>agf__All</fullName>
+    <columns>NAME</columns>
+    <columns>agf__Portfolio_Health__c</columns>
+    <columns>agf__Portfolio_Health_Color__c</columns>
+    <columns>agf__Portfolio_Manager__c</columns>
+    <columns>agf__Portfolio_Summary__c</columns>
+    <columns>agf__Portfolio_Goals__c</columns>
+    <columns>agf__Portfolio_Owner__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

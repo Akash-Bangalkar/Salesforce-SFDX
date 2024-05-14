@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>agf__Actual_Deploy_Date_Required_if_Deployed</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(ISNULL( agf__Actual_Release_Date__c  ), OR(ISPICKVAL( agf__Status__c, &apos;Deployed - Other Issues&apos;) ,
+ISPICKVAL( agf__Status__c, &apos;Deployed Successfully&apos;) ,
+ISPICKVAL( agf__Status__c, &apos;Deployment Introduced Regression&apos;) ,
+ISPICKVAL( agf__Status__c, &apos;Partial Deployment - Halted&apos;) ,
+ISPICKVAL( agf__Status__c, &apos;Partial Deployment - Superseded&apos;) ,
+ISPICKVAL( agf__Status__c, &apos;Partial Rollback&apos;) ,
+ISPICKVAL( agf__Status__c, &apos;Redeployed After Rollback&apos;) ,
+ISPICKVAL( agf__Status__c, &apos;Rollback&apos;) ,
+ISPICKVAL( agf__Status__c, &apos;Deployed - Exceeded Release Window&apos;) ,
+ISPICKVAL( agf__Status__c, &apos;Deployed - Date Changed&apos;) ))</errorConditionFormula>
+    <errorDisplayField>agf__Actual_Release_Date__c</errorDisplayField>
+    <errorMessage>Actual Release Date is required if the release has been fully or partially deployed.</errorMessage>
+</ValidationRule>

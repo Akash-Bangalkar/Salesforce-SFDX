@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>agf__All</fullName>
+    <columns>agf__Date__c</columns>
+    <columns>agf__Days_Remaining__c</columns>
+    <columns>agf__Hours_Remaining__c</columns>
+    <columns>agf__Points_Remaining__c</columns>
+    <columns>agf__Scrum_Team__c</columns>
+    <columns>agf__Sprint__c</columns>
+    <columns>agf__Task__c</columns>
+    <columns>agf__Task_ID__c</columns>
+    <columns>agf__Type__c</columns>
+    <columns>agf__Work__c</columns>
+    <columns>UPDATEDBY_USER</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

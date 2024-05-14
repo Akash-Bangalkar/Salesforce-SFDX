@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sf_devops__Check_Deploy_Status__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The status of the Check Deploy.</description>
+    <externalId>false</externalId>
+    <label>Check Deploy Status</label>
+    <referenceTo>sf_devops__Async_Operation_Result__c</referenceTo>
+    <relationshipLabel>Check Deploy Results</relationshipLabel>
+    <relationshipName>Check_Deploy_Results</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

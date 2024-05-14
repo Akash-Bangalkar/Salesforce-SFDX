@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sf_devops__Branch__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The branch in the VCS that this stage is associated with.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The branch in the VCS that this stage is associated with.</inlineHelpText>
+    <label>Branch</label>
+    <referenceTo>sf_devops__Branch__c</referenceTo>
+    <relationshipLabel>Pipeline Stages</relationshipLabel>
+    <relationshipName>Pipeline_Stages</relationshipName>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

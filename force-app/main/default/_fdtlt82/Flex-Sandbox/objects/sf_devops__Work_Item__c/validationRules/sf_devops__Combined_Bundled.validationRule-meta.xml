@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sf_devops__Combined_Bundled</fullName>
+    <active>true</active>
+    <description>Verifies that a Combined work item cannot be part of a bundle</description>
+    <errorConditionFormula>AND(
+    OR (ISCHANGED(sf_devops__Concluded__c), ISCHANGED(sf_devops__Change_Bundle__c) ),
+    sf_devops__Concluded__c = &quot;COMBINED&quot;,
+    NOT(ISBLANK(sf_devops__Change_Bundle__c))
+ )</errorConditionFormula>
+    <errorMessage>A Work Item cannot be Combined if it is in a bundle.</errorMessage>
+</ValidationRule>

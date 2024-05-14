@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sf_devops__PromotedFromEnvironment_Set</fullName>
+    <active>true</active>
+    <description>A Work Item cannot have its Promoted_From_Environment__c field set with a value different to the value of Environment__c and it can only be set when Environment__c is getting set to null.</description>
+    <errorConditionFormula>AND(
+    ISCHANGED(sf_devops__Promoted_From_Environment__c),
+    OR(
+      NOT(ISCHANGED(sf_devops__Environment__c)),
+      NOT(ISBLANK(sf_devops__Environment__c)),
+      sf_devops__Promoted_From_Environment__c &lt;&gt; PRIORVALUE(sf_devops__Environment__c)
+    )
+)</errorConditionFormula>
+    <errorMessage>A Work Item cannot have its Promoted_From_Environment__c field set with a value different to the value of Environment__c and it can only be set when Environment__c is getting set to null.</errorMessage>
+</ValidationRule>

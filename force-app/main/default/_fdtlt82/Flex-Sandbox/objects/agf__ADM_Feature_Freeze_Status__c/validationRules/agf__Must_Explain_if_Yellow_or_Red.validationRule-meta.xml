@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>agf__Must_Explain_if_Yellow_or_Red</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF ( ISBLANK( agf__Assessment_Details__c ),
+        IF(ISPICKVAL(agf__Teams_Self_Assessment__c,  &apos;Red&apos;),true,
+          IF(ISPICKVAL( agf__Teams_Self_Assessment__c, &apos;Yellow&apos;),true,
+      false)),false)</errorConditionFormula>
+    <errorDisplayField>agf__Assessment_Details__c</errorDisplayField>
+    <errorMessage>You must provide details if Team status is Yellow or Red.</errorMessage>
+</ValidationRule>

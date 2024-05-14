@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>agf__Execution_cannot_be_null</fullName>
+    <active>true</active>
+    <description>Execution cannot be null</description>
+    <errorConditionFormula>ISNULL( agf__Execution__c )</errorConditionFormula>
+    <errorDisplayField>agf__Execution__c</errorDisplayField>
+    <errorMessage>Execution cannot be null</errorMessage>
+</ValidationRule>

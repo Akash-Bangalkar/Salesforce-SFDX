@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sf_devops__No_New_Stages_For_Active_Pipelines</fullName>
+    <active>true</active>
+    <description>Do not allow new stages to be added to activated pipelines</description>
+    <errorConditionFormula>AND( ISNEW(),
+ sf_devops__Pipeline__r.sf_devops__Activated__c )</errorConditionFormula>
+    <errorDisplayField>sf_devops__Pipeline__c</errorDisplayField>
+    <errorMessage>You cannot add a Pipeline_Stage to an activated Pipeline.</errorMessage>
+</ValidationRule>

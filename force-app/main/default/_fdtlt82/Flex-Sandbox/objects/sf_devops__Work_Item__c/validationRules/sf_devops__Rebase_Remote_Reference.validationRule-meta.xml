@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sf_devops__Rebase_Remote_Reference</fullName>
+    <active>true</active>
+    <description>This rule is no longer enforced</description>
+    <errorConditionFormula>FALSE</errorConditionFormula>
+    <errorMessage>Deprecated</errorMessage>
+</ValidationRule>

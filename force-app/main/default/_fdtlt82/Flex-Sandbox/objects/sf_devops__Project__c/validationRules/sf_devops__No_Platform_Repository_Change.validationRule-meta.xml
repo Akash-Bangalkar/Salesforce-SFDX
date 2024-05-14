@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sf_devops__No_Platform_Repository_Change</fullName>
+    <active>true</active>
+    <description>Enforces that Platform_Repository__c cannot be changed.</description>
+    <errorConditionFormula>ISCHANGED(  sf_devops__Platform_Repository__c  )</errorConditionFormula>
+    <errorMessage>Platform_Repository__c cannot be modified.</errorMessage>
+</ValidationRule>

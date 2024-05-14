@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>agf__Assigned_To_is_not_null</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>agf__Subject_is_not_null</name>
+    </validationRules>
+</CustomObjectTranslation>

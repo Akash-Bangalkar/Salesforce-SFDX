@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>agf__Changelist__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Link back to the changelist description</description>
+    <externalId>false</externalId>
+    <formula>IF(ISPICKVAL(agf__Source__c, &apos;Perforce&apos;), 
+
+
+
+HYPERLINK( &quot;https://build.soma.salesforce.com/build/Perforce/describe?change=&quot; &amp; agf__Perforce_Changelist__c, agf__Perforce_Changelist__c), 
+
+
+
+IF(ISPICKVAL(agf__Source__c, &apos;&apos;), 
+
+
+
+HYPERLINK( &quot;https://build.soma.salesforce.com/build/Perforce/describe?change=&quot; &amp; agf__Perforce_Changelist__c, agf__Perforce_Changelist__c), 
+
+
+
+IF(ISPICKVAL(agf__Source__c, &apos;GitHub&apos;),  HYPERLINK( &quot;https://github.com/&quot; &amp; agf__Perforce_Changelist__c, &quot;github.com/&quot; &amp; agf__Perforce_Changelist__c),
+
+
+IF(ISPICKVAL(agf__Source__c, &apos;Stash&apos;),  
+
+HYPERLINK( &quot;https://stash.soma.salesforce.com/&quot; &amp; agf__Perforce_Changelist__c, &quot;stash.soma.salesforce.com/&quot; &amp; agf__Perforce_Changelist__c),
+
+
+HYPERLINK(&quot;https://git.soma.salesforce.com/&quot; &amp; agf__Perforce_Changelist__c, &quot;git.soma.salesforce.com/&quot; &amp; agf__Perforce_Changelist__c)
+
+)
+
+
+)
+
+
+
+)
+
+
+
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Changelist Link</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

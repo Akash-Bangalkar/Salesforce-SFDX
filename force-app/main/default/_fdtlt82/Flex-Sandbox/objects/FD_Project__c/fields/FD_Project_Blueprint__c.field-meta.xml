@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FD_Project_Blueprint__c</fullName>
+    <externalId>false</externalId>
+    <label>Project Blueprint</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ADF Application</fullName>
+                <default>false</default>
+                <label>ADF Application</label>
+            </value>
+            <value>
+                <fullName>Container</fullName>
+                <default>false</default>
+                <label>Container</label>
+            </value>
+            <value>
+                <fullName>Dell Boomi</fullName>
+                <default>false</default>
+                <label>Dell Boomi</label>
+            </value>
+            <value>
+                <fullName>File Deployments</fullName>
+                <default>false</default>
+                <label>File Deployments</label>
+            </value>
+            <value>
+                <fullName>Google Apigee</fullName>
+                <default>false</default>
+                <label>Google Apigee</label>
+            </value>
+            <value>
+                <fullName>MuleSoft</fullName>
+                <default>false</default>
+                <label>MuleSoft</label>
+            </value>
+            <value>
+                <fullName>Oracle API</fullName>
+                <default>false</default>
+                <label>Oracle API</label>
+            </value>
+            <value>
+                <fullName>Oracle JET Application</fullName>
+                <default>false</default>
+                <label>Oracle JET Application</label>
+            </value>
+            <value>
+                <fullName>PeopleSoft</fullName>
+                <default>false</default>
+                <label>PeopleSoft</label>
+            </value>
+            <value>
+                <fullName>Salesforce</fullName>
+                <default>false</default>
+                <label>Salesforce</label>
+            </value>
+            <value>
+                <fullName>SAP Change Requests</fullName>
+                <default>false</default>
+                <label>SAP Change Requests</label>
+            </value>
+            <value>
+                <fullName>SQL Scripts</fullName>
+                <default>false</default>
+                <label>SQL Scripts</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

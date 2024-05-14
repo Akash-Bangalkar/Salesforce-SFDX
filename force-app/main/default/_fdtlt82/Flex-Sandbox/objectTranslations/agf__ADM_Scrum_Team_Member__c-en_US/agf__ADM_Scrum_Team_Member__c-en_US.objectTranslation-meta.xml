@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <recordTypes>
+        <description></description>
+        <label></label>
+        <name>agf__External</name>
+    </recordTypes>
+    <recordTypes>
+        <description></description>
+        <label></label>
+        <name>agf__Internal</name>
+    </recordTypes>
+    <recordTypes>
+        <description></description>
+        <label></label>
+        <name>agf__Planned</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>agf__Allocate_over_limit</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>agf__Allocation_above_0</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>agf__Allocation_cant_exceed_100</name>
+    </validationRules>
+    <webLinks>
+        <label></label>
+        <name>agf__View_Members_and_Allocations</name>
+    </webLinks>
+</CustomObjectTranslation>

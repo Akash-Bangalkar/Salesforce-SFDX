@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sf_devops__Source_Component__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Computed field to simplify SOQL queries.</description>
+    <externalId>false</externalId>
+    <formula>sf_devops__Member_Type__c  &amp; &quot;:&quot; &amp;  sf_devops__Member_Name__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Source Component</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

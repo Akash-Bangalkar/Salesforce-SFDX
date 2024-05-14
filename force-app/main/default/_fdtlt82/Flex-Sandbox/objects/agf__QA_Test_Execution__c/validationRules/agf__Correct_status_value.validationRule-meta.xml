@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>agf__Correct_status_value</fullName>
+    <active>true</active>
+    <description>Status has to be: Planned, In progress, Passed, Failed, or Blocked</description>
+    <errorConditionFormula>NOT(OR(
+   ISPICKVAL(agf__Status__c, &quot;Planned&quot;),
+   ISPICKVAL(agf__Status__c, &quot;In Progress&quot;),
+   ISPICKVAL(agf__Status__c, &quot;Passed&quot;),
+   ISPICKVAL(agf__Status__c, &quot;Failed&quot;),
+   ISPICKVAL(agf__Status__c, &quot;Blocked&quot;)))</errorConditionFormula>
+    <errorDisplayField>agf__Status__c</errorDisplayField>
+    <errorMessage>Status has to be: Planned, In progress, Passed, Failed, or Blocked</errorMessage>
+</ValidationRule>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sf_devops__Environment__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The environment this stage is associated with.</description>
+    <externalId>false</externalId>
+    <label>Environment</label>
+    <referenceTo>sf_devops__Environment__c</referenceTo>
+    <relationshipLabel>Pipeline Stages</relationshipLabel>
+    <relationshipName>Pipeline_Stages</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

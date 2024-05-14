@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sf_devops__Parent_Activity__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Reference to the activity that is the main activity being recorded.</description>
+    <externalId>false</externalId>
+    <label>Parent Activity</label>
+    <referenceTo>sf_devops__Object_Activity__c</referenceTo>
+    <relationshipLabel>Child Activities</relationshipLabel>
+    <relationshipName>Child_Activities</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sf_devops__No_Promotion_to_Inactive_Pipeline</fullName>
+    <active>true</active>
+    <description>You cannot promote a work item to a stage of an inactive pipeline</description>
+    <errorConditionFormula>AND (
+      ISNEW(),
+   NOT( sf_devops__Pipeline_Stage__r.sf_devops__Pipeline__r.sf_devops__Activated__c )
+)</errorConditionFormula>
+    <errorMessage>You cannot promote a Work_Item to an inactive Pipeline.</errorMessage>
+</ValidationRule>

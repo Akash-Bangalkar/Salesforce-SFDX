@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>agf__Base_Event__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This field indicates whether the Release Event is a &quot;Base&quot; event, that is, the event happens at the time indicated by the Release record&apos;s Scheduled Release Date.</description>
+    <externalId>false</externalId>
+    <formula>IF(agf__Day_Offset__c = 0 &amp;&amp;  agf__Event_Duration__c = 0 &amp;&amp; ISBLANK(agf__Start_Time__c) &amp;&amp; 
+agf__Minute_Offset__c =0 &amp;&amp;  agf__Hour_Offset__c = 0, &quot;BASE EVENT&quot;, &quot;&quot;)</formula>
+    <label>Base Event</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

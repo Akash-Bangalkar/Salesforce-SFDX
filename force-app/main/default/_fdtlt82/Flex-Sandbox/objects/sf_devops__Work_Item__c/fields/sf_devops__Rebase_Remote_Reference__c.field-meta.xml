@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sf_devops__Rebase_Remote_Reference__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This field is deprecated and should not be referenced</description>
+    <externalId>false</externalId>
+    <label>Rebase Remote Reference</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

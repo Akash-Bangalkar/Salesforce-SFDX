@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FD_Test_Level__c</fullName>
+    <externalId>false</externalId>
+    <label>Test Level</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No Tests</fullName>
+                <default>true</default>
+                <label>No Tests</label>
+            </value>
+            <value>
+                <fullName>All Tests in Org</fullName>
+                <default>false</default>
+                <label>All Tests in Org</label>
+            </value>
+            <value>
+                <fullName>Local Tests</fullName>
+                <default>false</default>
+                <label>Local Tests</label>
+            </value>
+            <value>
+                <fullName>Specified Tests</fullName>
+                <default>false</default>
+                <label>Specified Tests</label>
+            </value>
+            <value>
+                <fullName>Specified  and Package Tests</fullName>
+                <default>false</default>
+                <label>Specified  and Package Tests</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

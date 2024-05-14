@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>agf__No_Start_Time_when_using_offset</fullName>
+    <active>true</active>
+    <description>When an offset is set for either hours or minutes, Start Time cannot be specified.</description>
+    <errorConditionFormula>NOT(ISBLANK(agf__Start_Time__c)) &amp;&amp;  
+(NOT(ISBLANK(agf__Hour_Offset__c)) ||  NOT(ISBLANK(agf__Minute_Offset__c)))</errorConditionFormula>
+    <errorDisplayField>agf__Start_Time__c</errorDisplayField>
+    <errorMessage>When an offset is set for either hours or minutes, Start Time cannot be specified. Either clear both Hours Offset and Minutes Offset or set Start Time to blank.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sf_devops__Status__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Async feedback for use during the installation operation.</description>
+    <externalId>false</externalId>
+    <label>Status</label>
+    <referenceTo>sf_devops__Async_Operation_Result__c</referenceTo>
+    <relationshipLabel>Change Bundle Installs</relationshipLabel>
+    <relationshipName>Change_Bundle_Installs</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

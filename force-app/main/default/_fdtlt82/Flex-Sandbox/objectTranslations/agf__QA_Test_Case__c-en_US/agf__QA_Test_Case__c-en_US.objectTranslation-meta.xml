@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>agf__Invalid_Priority_Value</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>agf__Order</name>
+    </validationRules>
+    <webLinks>
+        <label></label>
+        <name>agf__GenerateAnnotations</name>
+    </webLinks>
+</CustomObjectTranslation>

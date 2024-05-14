@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sf_devops__Change_Bundle_Project</fullName>
+    <active>true</active>
+    <description>Enforce we belong to the same project as our change bundle.</description>
+    <errorConditionFormula>AND(
+OR(
+ISNEW(),
+ISCHANGED(sf_devops__Change_Bundle__c)
+),
+NOT(ISBLANK(sf_devops__Change_Bundle__c)),
+sf_devops__Project__c &lt;&gt; sf_devops__Change_Bundle__r.sf_devops__Project__c
+
+)</errorConditionFormula>
+    <errorMessage>A Work Item must belong to the same project as its Change Bundle.</errorMessage>
+</ValidationRule>

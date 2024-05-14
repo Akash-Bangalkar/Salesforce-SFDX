@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>agf__Member_Name_Formula__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>IF ( OR ( $RecordType.Name = &apos;Internal&apos;, $RecordType.Name = &apos;&apos; ), agf__Member_Name__r.FirstName &amp; &apos; &apos; &amp; agf__Member_Name__r.LastName,
+IF ( $RecordType.Name = &apos;External&apos;, &apos;(External) &apos; , &apos;(Planned)&apos; ) &amp; agf__Member_Name_Text__c )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Name</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

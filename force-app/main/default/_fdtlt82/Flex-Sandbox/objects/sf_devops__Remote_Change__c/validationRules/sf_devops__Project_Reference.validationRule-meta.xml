@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sf_devops__Project_Reference</fullName>
+    <active>true</active>
+    <description>Enforce Our Change Submission&apos;s Environment and our Environment are the same.</description>
+    <errorConditionFormula>AND(
+OR(
+  ISNEW(),
+  ISCHANGED(sf_devops__Change_Submission__c)
+),
+NOT(ISBLANK(sf_devops__Change_Submission__c)),
+sf_devops__Change_Submission__r.sf_devops__Work_Item__r.sf_devops__Environment__c &lt;&gt; sf_devops__Environment__c
+
+)</errorConditionFormula>
+    <errorMessage>Cannot have a Change_Submission from a different environment.</errorMessage>
+</ValidationRule>

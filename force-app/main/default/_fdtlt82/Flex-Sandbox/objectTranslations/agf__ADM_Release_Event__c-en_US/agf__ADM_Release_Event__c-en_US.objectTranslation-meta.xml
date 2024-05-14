@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>agf__End_Time_cannot_be_before_Start_Time</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>agf__End_Time_must_be_set</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>agf__Start_Time_must_be_set</name>
+    </validationRules>
+    <webLinks>
+        <label></label>
+        <name>agf__Delete_Release_Event</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>agf__Set_Release_Event_To_Planned</name>
+    </webLinks>
+</CustomObjectTranslation>

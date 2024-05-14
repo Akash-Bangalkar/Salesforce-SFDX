@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help></help>
+    <label></label>
+    <name>agf__Num_P1_Bugs_Test_Failures_to_Fix_Verify__c</name>
+</CustomFieldTranslation>

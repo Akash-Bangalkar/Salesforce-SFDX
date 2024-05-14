@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>agf__Completed_Hours__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Total of Actual hours on all the child tasks associated to this work-item</description>
+    <externalId>false</externalId>
+    <label>Completed Hours</label>
+    <summarizedField>agf__ADM_Task__c.agf__Actual_Hours__c</summarizedField>
+    <summaryFilterItems>
+        <field>agf__ADM_Task__c.agf__Status__c</field>
+        <operation>equals</operation>
+        <value>Completed</value>
+    </summaryFilterItems>
+    <summaryForeignKey>agf__ADM_Task__c.agf__Work__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sf_devops__Promoted_To_Versioned</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+      ISNEW(),
+      sf_devops__Pipeline_Stage__r.sf_devops__Versioned__c 
+)</errorConditionFormula>
+    <errorMessage>A Work_Item cannot be promoted into a versioned Pipeline_Stage.</errorMessage>
+</ValidationRule>

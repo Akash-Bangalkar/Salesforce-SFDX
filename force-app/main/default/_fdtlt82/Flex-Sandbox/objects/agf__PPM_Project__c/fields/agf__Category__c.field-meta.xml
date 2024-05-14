@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>agf__Category__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Category</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Feature</fullName>
+                <default>false</default>
+                <label>Feature</label>
+            </value>
+            <value>
+                <fullName>Tech Debt</fullName>
+                <default>false</default>
+                <label>Tech Debt</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>agf__Dec_Explanation_Empty_Status_Approved</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISPICKVAL(agf__Status__c, &quot;Approved&quot;), 
+agf__Decision_Explanation__c = &quot;&quot;)</errorConditionFormula>
+    <errorDisplayField>agf__Decision_Explanation__c</errorDisplayField>
+    <errorMessage>Please provide a decision explanation when setting the status to &apos;Approved&apos;.</errorMessage>
+</ValidationRule>

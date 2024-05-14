@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sf_devops__Repository__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The VCS repository that was the source of this VCS Event.</description>
+    <externalId>false</externalId>
+    <label>Repository</label>
+    <referenceTo>sf_devops__Repository__c</referenceTo>
+    <relationshipLabel>Vcs Events</relationshipLabel>
+    <relationshipName>Vcs_Events</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>true</writeRequiresMasterRead>
+</CustomField>

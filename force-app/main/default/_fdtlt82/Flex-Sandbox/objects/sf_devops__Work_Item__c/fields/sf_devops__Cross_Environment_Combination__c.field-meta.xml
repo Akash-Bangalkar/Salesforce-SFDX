@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sf_devops__Cross_Environment_Combination__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If true, this work item is the survivor of a combination operation where metadata came from multiple development environments.  This needs to be treated differently during a back sync.</description>
+    <externalId>false</externalId>
+    <label>Cross Environment Combination</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

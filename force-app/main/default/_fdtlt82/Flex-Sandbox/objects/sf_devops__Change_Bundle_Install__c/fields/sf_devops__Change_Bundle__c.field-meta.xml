@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sf_devops__Change_Bundle__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The bundle that was installed</description>
+    <externalId>false</externalId>
+    <label>Change Bundle</label>
+    <referenceTo>sf_devops__Change_Bundle__c</referenceTo>
+    <relationshipLabel>Change Bundle Installs</relationshipLabel>
+    <relationshipName>Change_Bundle_Installs</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

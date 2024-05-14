@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>test_validation_v1</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISNULL(sample_date__c  )</errorConditionFormula>
+    <errorDisplayField>sample_date__c</errorDisplayField>
+    <errorMessage>this sample date field cant be cannot be blank</errorMessage>
+</ValidationRule>

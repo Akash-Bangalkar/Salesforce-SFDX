@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sf_devops__Combined_With__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The work item that this work item has been combined into.</description>
+    <externalId>false</externalId>
+    <label>Combined With</label>
+    <referenceTo>sf_devops__Work_Item__c</referenceTo>
+    <relationshipLabel>Combined Work Items</relationshipLabel>
+    <relationshipName>Combined_Work_Items</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

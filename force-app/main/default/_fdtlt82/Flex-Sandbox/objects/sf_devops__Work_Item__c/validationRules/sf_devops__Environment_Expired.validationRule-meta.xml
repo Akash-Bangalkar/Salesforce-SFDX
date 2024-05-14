@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sf_devops__Environment_Expired</fullName>
+    <active>true</active>
+    <description>Enforce we only reference environments that are not expired.</description>
+    <errorConditionFormula>AND(
+OR(
+ISNEW(),
+ISCHANGED(sf_devops__Environment__c)
+),
+NOT(ISBLANK( sf_devops__Environment__c  )),
+sf_devops__Environment__r.sf_devops__Expired__c
+
+)</errorConditionFormula>
+    <errorMessage>Work Items cannot be connected to expired environments.</errorMessage>
+</ValidationRule>

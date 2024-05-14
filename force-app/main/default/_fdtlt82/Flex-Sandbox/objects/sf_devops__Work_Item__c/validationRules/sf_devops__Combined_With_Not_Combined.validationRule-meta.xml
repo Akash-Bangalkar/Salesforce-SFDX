@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sf_devops__Combined_With_Not_Combined</fullName>
+    <active>true</active>
+    <description>Verifies that if Combined_With is set, the work item must be in the combined state</description>
+    <errorConditionFormula>AND(
+    OR (ISCHANGED(sf_devops__Concluded__c), ISCHANGED(sf_devops__Combined_With__c) ),
+    OR(ISBLANK(sf_devops__Concluded__c), NOT(sf_devops__Concluded__c = &quot;COMBINED&quot;)),
+    NOT(ISBLANK(sf_devops__Combined_With__c))
+ )</errorConditionFormula>
+    <errorMessage>A Work Item cannot have Combined_With set if it is not in the Combined state.</errorMessage>
+</ValidationRule>

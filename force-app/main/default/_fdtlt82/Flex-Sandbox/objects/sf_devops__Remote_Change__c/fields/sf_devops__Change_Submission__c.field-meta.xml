@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sf_devops__Change_Submission__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>A reference to the Change Submission that this change was submitted with.</description>
+    <externalId>false</externalId>
+    <label>Change Submission</label>
+    <referenceTo>sf_devops__Change_Submission__c</referenceTo>
+    <relationshipName>Changes</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

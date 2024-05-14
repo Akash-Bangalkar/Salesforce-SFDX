@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sf_devops__Merge_Result__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Merge Result</label>
+    <referenceTo>sf_devops__Merge_Result__c</referenceTo>
+    <relationshipLabel>Work Item Promotes</relationshipLabel>
+    <relationshipName>Work_Item_Promotes</relationshipName>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

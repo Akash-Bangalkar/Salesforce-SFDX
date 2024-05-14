@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sf_devops__Remote_Reference_Date__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Stores the last time Remote_Reference__c has been updated in the Branch__c.</description>
+    <externalId>false</externalId>
+    <label>Remote Reference Date</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

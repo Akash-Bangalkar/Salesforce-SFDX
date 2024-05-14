@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>agf__Release__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Release the opportunity is for.</description>
+    <externalId>false</externalId>
+    <label>Release</label>
+    <referenceTo>agf__ADM_Release__c</referenceTo>
+    <relationshipLabel>Open Market Opportunities</relationshipLabel>
+    <relationshipName>Open_Market_Opportunities</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>agf__All_Details</fullName>
+    <columns>NAME</columns>
+    <columns>agf__Application_Type__c</columns>
+    <columns>agf__Primary_Release_Manager__c</columns>
+    <columns>agf__Secondary_Release_Manager__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All - Details</label>
+</ListView>

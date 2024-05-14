@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sf_devops__Assigned_To__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The user working on this work item.</description>
+    <externalId>false</externalId>
+    <label>Assigned To</label>
+    <referenceTo>User</referenceTo>
+    <relationshipLabel>WorkItems</relationshipLabel>
+    <relationshipName>WorkItems</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

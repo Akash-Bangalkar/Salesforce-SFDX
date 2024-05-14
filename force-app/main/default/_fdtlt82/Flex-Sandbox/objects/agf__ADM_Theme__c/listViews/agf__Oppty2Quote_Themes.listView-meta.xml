@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>agf__Oppty2Quote_Themes</fullName>
+    <columns>agf__Theme_Rank__c</columns>
+    <columns>NAME</columns>
+    <columns>agf__Description__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>agf__Scrum_Team__c</field>
+        <operation>equals</operation>
+        <value>Opportunity to Quote</value>
+    </filters>
+    <label>Oppty2Quote Themes</label>
+</ListView>

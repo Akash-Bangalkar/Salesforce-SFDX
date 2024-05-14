@@ -1,0 +1,204 @@
+:root {
+  --lwc-fontWeightBold: 600;
+  --lwc-colorBorder: rgb(229, 229, 229);
+  --lwc-buttonColorBorderPrimary: rgb(201, 201, 201);
+}
+
+/* Flexbox */
+.flex {
+  display: flex;
+}
+.flex--justify-end {
+  justify-content: flex-end;
+}
+/* Flexbox */
+
+.big-chevron svg.slds-button__icon {
+  width: 25px;
+  height: 25px;
+  fill: #00396b;
+}
+
+.project-nav--vertical {
+  display: block;
+  list-style: none;
+}
+
+/* Project Nav Items Visual States */
+/* Default State */
+
+.project-nav--vertical .slds-nav-vertical__item .slds-nav-vertical__action {
+  padding: var(--lwc-spacingXSmall, 0.5rem) var(--lwc-spacingMedium, 1rem)
+    var(--lwc-spacingXSmall, 0.5rem) var(--lwc-spacingSmall, 0.75rem);
+  color: rgb(68, 68, 68);
+  font-size: 0.875rem;
+  box-shadow: none;
+}
+.slds-nav-vertical__item .slds-nav-vertical__action svg.slds-icon {
+  fill: rgb(116, 116, 116);
+}
+
+/* Hover State */
+.slds-nav-vertical__item:hover {
+  box-shadow: inset 2px 0 0 rgb(170, 203, 255);
+}
+
+/* Mousedown State */
+.project-nav--vertical
+  .slds-nav-vertical
+  .slds-nav-vertical__item:hover:active {
+  background-color: rgb(238, 244, 255);
+}
+
+/* Selected State */
+.slds-nav-vertical__item.slds-is-active
+  .slds-nav-vertical__action
+  svg.slds-icon {
+  fill: rgb(11, 92, 171);
+}
+.slds-nav-vertical__item.slds-is-active {
+  color: rgb(11, 92, 171);
+}
+.slds-nav-vertical__item.slds-is-active .slds-nav-vertical__action {
+  box-shadow: inset 2px 0 0 rgb(1, 118, 211);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.slds-nav-vertical__item.slds-is-active .slds-nav-vertical__action:focus {
+  text-decoration: underline;
+}
+
+.project-nav--vertical
+  .slds-nav-vertical
+  .slds-nav-vertical__item.slds-is-active
+  .slds-nav-vertical__action {
+  color: rgb(11, 92, 171);
+}
+/* Project Nav Items Visual State */
+
+/* Object Activity Expansions */
+.date-group__record__chevron
+  [data-id='activity-expansion--expanded']
+  svg.slds-icon {
+  fill: #fff;
+}
+/* Object Activity Expansions */
+/* Object Activity Error State */
+[data-id^='activity-error'] * {
+  fill: #ba0517;
+}
+[data-id^='activity-warning'] * {
+  fill: #fe9339;
+}
+/* Object Activity Error State */
+
+/* Scrollable Tabsets Pipeline/Workitem */
+[data-id^='pipeline-tabset'] > .slds-tabs_default {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+[data-id^='pipeline-tabset'] > .slds-tabs_default > slot {
+  display: block;
+  flex-grow: 1;
+  overflow: scroll;
+  height: 100%;
+}
+[data-id^='pipeline-tabset'] .slds-tabs_default__content {
+  height: 100%;
+  flex-grow: 1;
+  overflow: hidden;
+}
+[data-id^='pipeline-tabset']
+  .slds-tabs_default__content
+  .pipeline-environments-wrapper {
+  height: calc(100vh - 190px);
+  display: flex;
+  flex-direction: column;
+}
+[data-id^='workitem-tabset'] > .slds-tabs_default {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+[data-id^='workitem-tabset'] > .slds-tabs_default > slot {
+  display: block;
+  flex-grow: 1;
+  overflow: scroll;
+  height: 100%;
+}
+[data-id^='workitem-tabset'] .slds-tabs_default__content {
+  height: 100%;
+  flex-grow: 1;
+}
+
+/* Scrollable Tabsets Pipeline/Workitem */
+
+.expanded-activity [data-id='datatable']:last-of-type table.slds-table {
+  margin-bottom: -1px;
+}
+
+.expanded-activity [data-id='datatable'] table.slds-table .slds-cell-fixed {
+  background-color: #f3f3f3;
+  border-top: 1px solid #aeaeae;
+}
+
+.expanded-activity
+  [data-id='expanded-header']
+  [data-id='oa-expanded-header']
+  li.date-group__record {
+  outline: 0;
+  border-bottom: 1px solid #aeaeae;
+  margin-bottom: -1px;
+}
+
+/* List View Manager */
+.full-height {
+  height: 100%;
+}
+.list-view-manager-grid table > thead .slds-cell-fixed {
+  background-color: #f3f3f3;
+}
+
+.list-view-renderer {
+  overflow: hidden;
+}
+
+.list-view-manager-grid article {
+  border-radius: 0;
+  border-top: 1px solid #c9c9c9;
+  border-bottom: 1px solid #c9c9c9;
+  border-left: none;
+  border-right: none;
+}
+
+/* List View Manager Header */
+
+.label-hidden label {
+  position: absolute;
+  opacity: 0;
+}
+
+.activity-stream > [data-id='lvm-header'] {
+  padding-top: var(--lwc-spacingXSmall);
+}
+
+.slds-page-header__meta-text {
+  font-size: 0.8125rem;
+}
+
+/* Filter Panel */
+.slds-panel_docked-right {
+  box-shadow: none;
+  border-left: 1px solid var(--lwc-colorBorder);
+}
+
+/* page header */
+.slds-page-header {
+  background: none;
+}
+
+.slds-page-header__title {
+  font-weight: 600;
+}

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FD_File_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>File Type</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Word Doc (*.docx)</fullName>
+                <default>false</default>
+                <label>Word Doc (*.docx)</label>
+            </value>
+            <value>
+                <fullName>XPS Doc (*.xps)</fullName>
+                <default>false</default>
+                <label>XPS Doc (*.xps)</label>
+            </value>
+            <value>
+                <fullName>PDF (*.pdf)</fullName>
+                <default>false</default>
+                <label>PDF (*.pdf)</label>
+            </value>
+            <value>
+                <fullName>Plain Test (*.txt)</fullName>
+                <default>false</default>
+                <label>Plain Test (*.txt)</label>
+            </value>
+            <value>
+                <fullName>Web Page (*.html)</fullName>
+                <default>false</default>
+                <label>Web Page (*.html)</label>
+            </value>
+            <value>
+                <fullName>RAR (*.rar)</fullName>
+                <default>false</default>
+                <label>RAR (*.rar)</label>
+            </value>
+            <value>
+                <fullName>Database (*.db)</fullName>
+                <default>false</default>
+                <label>Database (*.db)</label>
+            </value>
+            <value>
+                <fullName>SQL Database (*.sql)</fullName>
+                <default>false</default>
+                <label>SQL Database (*.sql)</label>
+            </value>
+            <value>
+                <fullName>XML (*.xml)</fullName>
+                <default>false</default>
+                <label>XML (*.xml)</label>
+            </value>
+            <value>
+                <fullName>Image (*.png/*.jpeg)</fullName>
+                <default>false</default>
+                <label>Image (*.png/*.jpeg)</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

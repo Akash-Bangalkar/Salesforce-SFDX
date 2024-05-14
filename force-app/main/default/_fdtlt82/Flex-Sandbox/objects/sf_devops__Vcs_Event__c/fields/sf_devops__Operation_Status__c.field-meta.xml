@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sf_devops__Operation_Status__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The AOR referencing the current ongoing operation of this VCS Event, if one exists.</description>
+    <externalId>false</externalId>
+    <label>Operation Status</label>
+    <referenceTo>sf_devops__Async_Operation_Result__c</referenceTo>
+    <relationshipLabel>VCS Events</relationshipLabel>
+    <relationshipName>VCS_Events</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

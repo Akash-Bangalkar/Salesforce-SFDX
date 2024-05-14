@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>agf__Closed__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Formula designed as per request in the story https://gus.my.salesforce.com/apex/adm_userstorydetail?id=a07B00000011BKiIAM&amp;sfdc.override=1</description>
+    <externalId>false</externalId>
+    <formula>OR(agf__Case_Status__c  = &apos;Closed - Resolved&apos;,agf__Case_Status__c = &apos;Closed - Feature Req/Bug&apos;,agf__Case_Status__c = &apos;Closed - No response from customer&apos;, agf__Case_Status__c = &apos;Closed - Cust Credit&apos;, agf__Case_Status__c = &apos;Closed - Write Off&apos;, agf__Case_Status__c = &apos;Closed - WO/Collect&apos;,
+agf__Case_Status__c = &apos;Closed - Future Consideration&apos;,agf__Case_Status__c = &apos;Closed - Rejected&apos;,
+agf__Case_Status__c = &apos;Closed - Duplicate&apos;,agf__Case_Status__c = &apos;Closed - Request Submitted&apos;,
+agf__Case_Status__c = &apos;Closed - Completed&apos;,agf__Case_Status__c = &apos;Closed - Reviewed&apos;,
+agf__Case_Status__c = &apos;Closed - Request Received&apos;,agf__Case_Status__c = &apos;Complete/Closed&apos;,
+agf__Case_Status__c = &apos;Closed - Feature Request Submitted&apos;,agf__Case_Status__c = &apos;Bug Fix Submitted&apos;,
+agf__Case_Status__c = &apos;Fulfilled&apos;, agf__Case_Status__c = &apos;Approved&apos;,
+agf__Case_Status__c = &apos;Rejected&apos;, agf__Case_Status__c = &apos;Closed-Sent to Feature Roadmap Owner&apos;, agf__Case_Status__c = &apos;Closed-Workaround provided&apos;,
+agf__Case_Status__c = &apos;Closed-Feature Implemented/Exists&apos;,agf__Case_Status__c = &apos;Closed - Directed to IdeaExchange&apos;,
+agf__Case_Status__c = &apos;Closed - No response from Sales (Closed)&apos;, agf__Case_Status__c = &apos;Implemented&apos;,
+agf__Case_Status__c = &apos;Closed - Routed to Internal Helpdesk&apos;, agf__Case_Status__c = &apos;Closed&apos;,
+agf__Case_Status__c = &apos;Closed – Delivered&apos;, agf__Case_Status__c = &apos;Closed – Withdrawn&apos;, agf__Case_Status__c = &apos;Closed – Feature Exists&apos;,
+agf__Case_Status__c = &apos;Closed – Workaround&apos;, agf__Case_Status__c = &apos;Closed – IdeaExchange&apos;, agf__Case_Status__c = &apos;Closed - Implemented&apos;,
+agf__Case_Status__c = &apos;Closed - Request out of Scope&apos;, agf__Case_Status__c = &apos;Closed - Cust. Invoiced (Sales Ops only)&apos;, agf__Case_Status__c = &apos;Closed - Never&apos;,
+agf__Case_Status__c = &apos;Auto-response&apos;, agf__Case_Status__c = &apos;Closed - No response from Partner&apos;, agf__Case_Status__c = &apos;Closed - Support Issue&apos;,
+agf__Case_Status__c = &apos;Closed - Services/Sales Issue&apos;, agf__Case_Status__c = &apos;Closed - Product Issue&apos;, agf__Case_Status__c = &apos;Closed - Forward to Partner&apos;,
+agf__Case_Status__c = &apos;Closed - Edition Upgrade Needed&apos;, agf__Case_Status__c = &apos;Closed - Self Service&apos;, agf__Case_Status__c = &apos;Closed - Customer Closed&apos;,
+agf__Case_Status__c = &apos;Closed - Partner Resolved&apos;, agf__Case_Status__c = &apos;No Action Needed&apos;, agf__Case_Status__c = &apos;Closed - No CSAT&apos;)</formula>
+    <label>Closed</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

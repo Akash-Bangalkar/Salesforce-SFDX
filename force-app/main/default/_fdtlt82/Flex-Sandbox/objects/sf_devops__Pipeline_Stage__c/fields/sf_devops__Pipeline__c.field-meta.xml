@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sf_devops__Pipeline__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The pipeline this stage belongs to</description>
+    <externalId>false</externalId>
+    <label>Pipeline</label>
+    <referenceTo>sf_devops__Pipeline__c</referenceTo>
+    <relationshipLabel>Pipeline Stages</relationshipLabel>
+    <relationshipName>Pipeline_Stages</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

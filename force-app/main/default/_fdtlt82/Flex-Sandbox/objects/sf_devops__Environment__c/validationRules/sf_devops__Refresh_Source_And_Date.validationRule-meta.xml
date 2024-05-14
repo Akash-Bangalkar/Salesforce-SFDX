@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sf_devops__Refresh_Source_And_Date</fullName>
+    <active>true</active>
+    <description>Verify both Refresh_Source and Refresh_Date are set, or both are empty</description>
+    <errorConditionFormula>AND(
+    OR(ISNEW(), ISCHANGED(sf_devops__Refresh_Source__c), ISCHANGED(sf_devops__Refresh_Date__c)),
+     ISBLANK( sf_devops__Refresh_Date__c )  &lt;&gt;  ISBLANK( sf_devops__Refresh_Source__c ) 
+  )</errorConditionFormula>
+    <errorMessage>Refresh_Source and Refresh_Date most both be set, or both be empty.</errorMessage>
+</ValidationRule>

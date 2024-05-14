@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sf_devops__Change_Submission_Work_Item</fullName>
+    <active>true</active>
+    <description>Enforce Change_Submission__r is from the same Work_Item on an Object_Activity.</description>
+    <errorConditionFormula>AND(
+OR(
+ISNEW(),
+ISCHANGED(sf_devops__Change_Submission__c),
+ISCHANGED(sf_devops__Work_Item__c)
+),
+NOT(ISBLANK(sf_devops__Change_Submission__c)),
+sf_devops__Change_Submission__r.sf_devops__Work_Item__c &lt;&gt; sf_devops__Work_Item__c
+
+)</errorConditionFormula>
+    <errorMessage>The referenced Change_Submission__c must be from the same Work_Item.</errorMessage>
+</ValidationRule>

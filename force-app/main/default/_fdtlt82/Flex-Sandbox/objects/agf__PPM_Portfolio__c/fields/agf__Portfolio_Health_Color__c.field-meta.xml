@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>agf__Portfolio_Health_Color__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Color/icon used to better visualize the current Portfolio Health field value.</description>
+    <externalId>false</externalId>
+    <formula>IMAGE(
+CASE( agf__Portfolio_Health__c ,
+&quot;Not Started&quot;, &quot;/img/alohaSkin/setup/setup_selected_bottombg.png&quot;,
+&quot;On Track&quot;, &quot;/img/samples/color_green.gif&quot;,
+&quot;Watch&quot;, &quot;/img/samples/color_yellow.gif&quot;,
+&quot;Blocked&quot;, &quot;/img/samples/color_red.gif&quot;,
+&quot;Completed&quot;, &quot;/img/checkbox_checked.gif&quot;,
+&quot;Canceled&quot;, &quot;/img/checkbox_unchecked.gif&quot;,
+&quot;On Hold&quot;, &quot;/img/alohaSkin/help_grey.png&quot;,
+&quot;/s.gif&quot;),
+&quot;status color&quot;,15,30)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Color/icon used to better visualize the current Portfolio Health field value.</inlineHelpText>
+    <label>Portfolio Health Color</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

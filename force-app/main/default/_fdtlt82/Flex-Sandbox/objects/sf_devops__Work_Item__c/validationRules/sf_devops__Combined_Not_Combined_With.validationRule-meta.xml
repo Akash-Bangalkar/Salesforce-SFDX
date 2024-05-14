@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sf_devops__Combined_Not_Combined_With</fullName>
+    <active>true</active>
+    <description>Verifies that a Combined work item must have Combined_With also set</description>
+    <errorConditionFormula>AND(
+    OR (ISCHANGED(sf_devops__Concluded__c), ISCHANGED(sf_devops__Combined_With__c) ),
+    sf_devops__Concluded__c = &quot;COMBINED&quot;,
+    ISBLANK(sf_devops__Combined_With__c)
+ )</errorConditionFormula>
+    <errorMessage>A Work Item cannot be Combined if it does not reference the work item it is combined into.</errorMessage>
+</ValidationRule>

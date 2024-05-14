@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sf_devops__Platform_Repository__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The repository used by this project to store Salesforce Platform metadata (Apex, CustomObject, etc.)</description>
+    <externalId>false</externalId>
+    <label>Platform Repository</label>
+    <referenceTo>sf_devops__Repository__c</referenceTo>
+    <relationshipLabel>Platform Projects</relationshipLabel>
+    <relationshipName>Platform_Projects</relationshipName>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sf_devops__Remote_Change_Type__c</fullName>
+    <deprecated>false</deprecated>
+    <description>What type of change is this?</description>
+    <externalId>false</externalId>
+    <label>Remote Change Type</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ADD</fullName>
+                <default>true</default>
+                <label>ADD</label>
+            </value>
+            <value>
+                <fullName>REMOVE</fullName>
+                <default>false</default>
+                <label>REMOVE</label>
+            </value>
+            <value>
+                <fullName>CHANGE</fullName>
+                <default>false</default>
+                <label>CHANGE</label>
+            </value>
+            <value>
+                <fullName>RENAME</fullName>
+                <default>false</default>
+                <label>RENAME</label>
+            </value>
+            <value>
+                <fullName>MANUAL</fullName>
+                <default>false</default>
+                <label>MANUAL</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sf_devops__Expired_Changed</fullName>
+    <active>true</active>
+    <description>An Environment cannot have its Expired__c field set to false.</description>
+    <errorConditionFormula>AND(NOT(sf_devops__Expired__c), ISCHANGED(sf_devops__Expired__c))</errorConditionFormula>
+    <errorMessage>An Environment cannot have its Expired__c field set to false.</errorMessage>
+</ValidationRule>

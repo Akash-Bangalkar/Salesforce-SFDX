@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sf_devops__Concluded_values</fullName>
+    <active>true</active>
+    <description>Verifies that Concluded_c is assigned with a possible value.</description>
+    <errorConditionFormula>NOT(OR( sf_devops__Concluded__c = &quot;CLOSED&quot;, sf_devops__Concluded__c = &quot;NEVERED&quot;, sf_devops__Concluded__c = &quot;COMBINED&quot;, ISBLANK(sf_devops__Concluded__c)))</errorConditionFormula>
+    <errorMessage>Possible values for Concluded_c are : CLOSED, NEVERED, COMBINED, or empty.</errorMessage>
+</ValidationRule>

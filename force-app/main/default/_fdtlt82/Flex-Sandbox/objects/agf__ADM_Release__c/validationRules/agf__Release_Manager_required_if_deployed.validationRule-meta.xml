@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>agf__Release_Manager_required_if_deployed</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(ISBLANK( agf__Release_Manager__c ), OR(ISPICKVAL( agf__Status__c, &apos;Deployed - Other Issues&apos;) ,
+ISPICKVAL( agf__Status__c, &apos;Deployed Successfully&apos;) ,
+ISPICKVAL( agf__Status__c, &apos;Deployment Introduced Regression&apos;) ,
+ISPICKVAL( agf__Status__c, &apos;Partial Deployment - Halted&apos;) ,
+ISPICKVAL( agf__Status__c, &apos;Partial Deployment - Superseded&apos;) ,
+ISPICKVAL( agf__Status__c, &apos;Partial Rollback&apos;) ,
+ISPICKVAL( agf__Status__c, &apos;Redeployed After Rollback&apos;) ,
+ISPICKVAL( agf__Status__c, &apos;Rollback&apos;) ,
+ISPICKVAL( agf__Status__c, &apos;Deployed - Exceeded Release Window&apos;) ,
+ISPICKVAL( agf__Status__c, &apos;Deployed - Date Changed&apos;) ))</errorConditionFormula>
+    <errorDisplayField>agf__Release_Manager__c</errorDisplayField>
+    <errorMessage>Release Manager must be specified if the release has been fully or partially deployed.</errorMessage>
+</ValidationRule>

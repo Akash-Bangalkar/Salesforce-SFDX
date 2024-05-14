@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>agf__Record_Type__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <inlineHelpText>The Work record type this assignment rule is applicable for</inlineHelpText>
+    <label>Record Type</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Bug</fullName>
+                <default>false</default>
+                <label>Bug</label>
+            </value>
+            <value>
+                <fullName>User Story</fullName>
+                <default>false</default>
+                <label>User Story</label>
+            </value>
+            <value>
+                <fullName>Investigation</fullName>
+                <default>false</default>
+                <label>Investigation</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

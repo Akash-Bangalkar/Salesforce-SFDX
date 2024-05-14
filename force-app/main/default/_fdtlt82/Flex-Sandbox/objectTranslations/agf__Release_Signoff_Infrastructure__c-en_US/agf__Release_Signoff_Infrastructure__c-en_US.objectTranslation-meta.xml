@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <recordTypes>
+        <description></description>
+        <label></label>
+        <name>agf__New_Pods</name>
+    </recordTypes>
+    <recordTypes>
+        <description></description>
+        <label></label>
+        <name>agf__Splits_Migrations</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>agf__Dates_must_not_be_future</name>
+    </validationRules>
+</CustomObjectTranslation>

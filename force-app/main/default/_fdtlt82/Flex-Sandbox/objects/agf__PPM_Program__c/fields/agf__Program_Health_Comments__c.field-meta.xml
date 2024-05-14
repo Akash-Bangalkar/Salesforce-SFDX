@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>agf__Program_Health_Comments__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Indicate the program health comments.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicate the program health comments.</inlineHelpText>
+    <label>Program Health Comments</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

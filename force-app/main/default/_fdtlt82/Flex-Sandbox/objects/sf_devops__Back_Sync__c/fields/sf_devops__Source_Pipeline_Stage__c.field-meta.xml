@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sf_devops__Source_Pipeline_Stage__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The source stage of a back sync.</description>
+    <externalId>false</externalId>
+    <label>Source Pipeline Stage</label>
+    <referenceTo>sf_devops__Pipeline_Stage__c</referenceTo>
+    <relationshipLabel>Source Back Syncs</relationshipLabel>
+    <relationshipName>Source_Back_Syncs</relationshipName>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

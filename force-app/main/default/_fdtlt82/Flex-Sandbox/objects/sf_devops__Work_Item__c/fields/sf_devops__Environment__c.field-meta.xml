@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sf_devops__Environment__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The environment that this work item is running in.</description>
+    <externalId>false</externalId>
+    <label>Environment</label>
+    <referenceTo>sf_devops__Environment__c</referenceTo>
+    <relationshipLabel>Work Items</relationshipLabel>
+    <relationshipName>Work_Items</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sf_devops__Operation_Result__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>A reference to the async results for this activity</description>
+    <externalId>false</externalId>
+    <label>Operation Result</label>
+    <referenceTo>sf_devops__Async_Operation_Result__c</referenceTo>
+    <relationshipLabel>Object Activities</relationshipLabel>
+    <relationshipName>Object_Activities</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>
