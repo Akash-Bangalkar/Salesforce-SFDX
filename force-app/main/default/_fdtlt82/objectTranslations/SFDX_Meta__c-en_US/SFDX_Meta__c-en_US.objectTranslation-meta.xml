@@ -8,5 +8,44 @@
         <plural>true</plural>
         <value>SFDX Meta</value>
     </caseValues>
+    <fieldSets>
+        <label></label>
+        <name>SFDX_FS</name>
+    </fieldSets>
+    <layouts>
+        <layout>SFDX PL</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Custom Section</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Owner Section</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>System Info</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label></label>
+        <name>Metadata_API</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Salesforce_DX</name>
+    </recordTypes>
+    <sharingReasons>
+        <label></label>
+        <name>SFDX_ASR</name>
+    </sharingReasons>
     <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>VL_Test</name>
+    </validationRules>
 </CustomObjectTranslation>

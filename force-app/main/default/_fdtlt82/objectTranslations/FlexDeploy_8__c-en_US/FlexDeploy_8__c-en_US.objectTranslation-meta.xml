@@ -8,5 +8,22 @@
         <plural>true</plural>
         <value>FlexDeploy 8</value>
     </caseValues>
+    <quickActions>
+        <label></label>
+        <name>Test_FD</name>
+    </quickActions>
+    <recordTypes>
+        <description></description>
+        <label></label>
+        <name>fdtlt87</name>
+    </recordTypes>
     <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>CreatedDateVL</name>
+    </validationRules>
+    <webLinks>
+        <label></label>
+        <name>Remove_All</name>
+    </webLinks>
 </CustomObjectTranslation>

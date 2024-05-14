@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CompanyName</fullName>
+    <active>true</active>
+    <errorConditionFormula>LEN(Company) &lt; 3</errorConditionFormula>
+    <errorDisplayField>Company</errorDisplayField>
+    <errorMessage>Enter Valid Company Name</errorMessage>
+</ValidationRule>

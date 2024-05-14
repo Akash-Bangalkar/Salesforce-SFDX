@@ -8,5 +8,17 @@
         <plural>true</plural>
         <value>Projects</value>
     </caseValues>
+    <recordTypes>
+        <label></label>
+        <name>Project_Tier</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Project_fdtlt82</name>
+    </recordTypes>
     <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>ProjectNameLength</name>
+    </validationRules>
 </CustomObjectTranslation>
